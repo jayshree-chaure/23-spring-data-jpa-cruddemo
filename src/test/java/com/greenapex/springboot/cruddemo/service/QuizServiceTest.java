@@ -34,8 +34,9 @@ public class QuizServiceTest {
 	@Test
 	@Order(1)
 	public void findAllTest() {
+		
 		ArrayList<Question> que =new ArrayList<Question>();
-		Question question = new Question("why",new Answer("anwer"));
+		Question question = new Question("why",new Answer("answer"));
      	que.add(question);
 		List<Quiz> quiz = new ArrayList<Quiz>();
 		quiz.add(new Quiz("quiz1",que));
